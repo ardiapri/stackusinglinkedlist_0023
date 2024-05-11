@@ -42,6 +42,12 @@ current top node
 		top = top->next; // Update the top pointer to thr new node
 
 	}
+    // Peek/Top operation: Retrive the value of the topmost element without removing it
+	void peek() {
+		if (top == NULL) {
+			cout << "List is empty." << endl;
+		}
+
 
 
 
