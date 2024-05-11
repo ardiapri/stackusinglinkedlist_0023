@@ -33,4 +33,10 @@ current top node
 		cout << "Puch value: " << value << endl;
 		return value;
 	}
+    // Pop operation: Remove the topmost element from thee stack
+	void pop() {
+		if (isEmpty()) {
+			cout << "Stack is empty." << endl;
+		}
+
 
